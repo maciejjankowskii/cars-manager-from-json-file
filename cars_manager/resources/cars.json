@@ -1,0 +1,188 @@
+[
+  {
+    "model": "AUDI",
+    "price": 120,
+    "mileage": 12000,
+    "engine": {
+      "type": "DIESEL",
+      "power": 210
+    },
+    "car_body": {
+      "color": "BLACK",
+      "type": "HATCHBACK",
+      "components": [
+        "ABS",
+        "AIR CONDITIONING"
+      ]
+    },
+    "wheel": {
+      "type": "SUMMER",
+      "model": "PIRELLI",
+      "size": 18
+    }
+  },
+  {
+    "model": "BMW",
+    "price": 105,
+    "mileage": 18500,
+    "engine": {
+      "type": "GASOLINE",
+      "power": 185
+    },
+    "car_body": {
+      "color": "WHITE",
+      "type": "SEDAN",
+      "components": [
+        "ABS",
+        "ESP",
+        "AIR CONDITIONING",
+        "GLASS ROOF"
+      ]
+    },
+    "wheel": {
+      "type": "WINTER",
+      "model": "GOODYEAR",
+      "size": 20
+    }
+  },
+  {
+    "model": "AUDI",
+    "price": 155,
+    "mileage": 50000,
+    "engine": {
+      "type": "GASOLINE",
+      "power": 255
+    },
+    "car_body": {
+      "color": "SILVER",
+      "type": "HATCHBACK",
+      "components": [
+        "ABS",
+        "FOLDING MIRRORS",
+        "AIR CONDITIONING",
+        "BACKUP CAMERA"
+      ]
+    },
+    "wheel": {
+      "type": "SUMMER",
+      "model": "UNIROYAL",
+      "size": 18
+    }
+  },
+  {
+    "model": "MERCEDES",
+    "price": 225,
+    "mileage": 65000,
+    "engine": {
+      "type": "DIESEL",
+      "power": 205
+    },
+    "car_body": {
+      "color": "BLUE",
+      "type": "COMBI",
+      "components": [
+        "ABS",
+        "ESP",
+        "LED LIGHTS",
+        "AIR CONDITIONING",
+        "GLASS ROOF",
+        "ALU WHEEL"
+      ]
+    },
+    "wheel": {
+      "type": "SUMMER",
+      "model": "PIRELLI",
+      "size": 20
+    }
+  },
+  {
+    "model": "BMW",
+    "price": 85,
+    "mileage": 256000,
+    "engine": {
+      "type": "LPG",
+      "power": 95
+    },
+    "car_body": {
+      "color": "RED",
+      "type": "COMBI",
+      "components": [
+        "ABS"
+      ]
+    },
+    "wheel": {
+      "type": "WINTER",
+      "model": "DEBICA",
+      "size": 16
+    }
+  },
+  {
+    "model": "BUGATTI",
+    "price": 1500,
+    "mileage": 500,
+    "engine": {
+      "type": "GASOLINE",
+      "power": 1000
+    },
+    "car_body": {
+      "color": "BLUE",
+      "type": "SEDAN",
+      "components": [
+        "ABS",
+        "AIR CONDITIONING",
+        "SPOILER",
+        "LED LIGHTS",
+        "BACKUP CAMERA"
+      ]
+    },
+    "wheel": {
+      "type": "SUMMER",
+      "model": "GOODYEAR",
+      "size": 22
+    }
+  },
+  {
+    "model": "FIAT",
+    "price": 25,
+    "mileage": 125000,
+    "engine": {
+      "type": "GASOLINE",
+      "power": 35
+    },
+    "car_body": {
+      "color": "BLUE",
+      "type": "HATCHBACK",
+      "components": [
+        "HEATED REAR WINDOW"
+      ]
+    },
+    "wheel": {
+      "type": "WINTER",
+      "model": "DEBICA",
+      "size": 14
+    }
+  },
+  {
+    "model": "SKODA",
+    "price": 115,
+    "mileage": 500000,
+    "engine": {
+      "type": "DIESEL",
+      "power": 110
+    },
+    "car_body": {
+      "color": "GREEN",
+      "type": "COMBI",
+      "components": [
+        "ABS",
+        "AIR CONDITIONING",
+        "BACKUP CAMERA"
+      ]
+    },
+    "wheel": {
+      "type": "SUMMER",
+      "model": "UNIROYAL",
+      "size": 18
+    }
+  }
+]

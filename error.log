@@ -1,0 +1,167 @@
+2022-07-24 10:03:24,209 - ERROR - root - Model must consist of capital letters only: tesla
+2022-07-24 10:03:35,655 - ERROR - root - Model must consist of capital letters only: tesla
+2022-07-24 10:03:36,588 - ERROR - root - Model must consist of capital letters only: tesla
+2022-07-24 10:03:37,488 - ERROR - root - Model must consist of capital letters only: tesla
+2022-07-24 10:03:38,467 - ERROR - root - Model must consist of capital letters only: tesla
+2022-07-24 10:03:59,438 - ERROR - root - Model must consist of capital letters only: tesla
+2022-07-24 10:04:00,706 - ERROR - root - Model must consist of capital letters only: tesla
+2022-07-24 10:04:01,770 - ERROR - root - Model must consist of capital letters only: tesla
+2022-07-24 10:04:02,786 - ERROR - root - Model must consist of capital letters only: tesla
+2022-07-24 10:19:59,103 - ERROR - root - Model must consist of capital letters only: tesla
+2022-07-24 10:20:18,714 - ERROR - root - Model must consist of capital letters only: TESLA a
+2022-07-24 10:20:38,705 - ERROR - root - Color must be ingredients Enum Color
+2022-07-25 13:21:30,094 - ERROR - root - Engine power must be greater than 0: -110.0
+2022-07-25 13:21:52,140 - ERROR - root - Engine type must be ingredients Enum EngineType
+2022-07-25 13:28:35,008 - ERROR - root - Wheel model must consist of capital letters only: uniroyal
+2022-07-25 13:33:39,307 - ERROR - root - Car body components must consist of capital letters only
+2022-07-25 13:34:15,728 - ERROR - root - Car body components must consist of capital letters only: BACKUP camera
+2022-07-25 13:38:06,982 - ERROR - root - Car price must be greater than 0: -1500
+2022-07-25 13:38:24,281 - ERROR - root - Car mileage must be greater than 0: -500
+2022-07-25 14:45:00,416 - ERROR - root - Car carBody type must be ingredients class CarBody
+2022-07-25 14:46:00,928 - ERROR - root - Car engine type must be ingredients class Engine
+2022-07-25 15:16:21,388 - ERROR - root - Car engine type must be ingredients class Engine
+2022-07-25 15:16:21,388 - ERROR - root - Car wheel type must be ingredients class Wheel
+2022-07-25 15:16:21,393 - ERROR - root - Car wheel type must be ingredients class Wheel
+2022-07-25 15:16:21,403 - ERROR - root - Car wheel type must be ingredients class Wheel
+2022-07-25 15:16:21,403 - ERROR - root - Car wheel type must be ingredients class Wheel
+2022-07-25 15:16:21,418 - ERROR - root - Car wheel type must be ingredients class Wheel
+2022-07-25 15:16:21,418 - ERROR - root - Car wheel type must be ingredients class Wheel
+2022-07-25 15:16:21,433 - ERROR - root - Car wheel type must be ingredients class Wheel
+2022-07-25 15:18:05,465 - ERROR - root - Car engine type must be ingredients class Engine
+2022-07-25 15:18:38,266 - ERROR - root - Car engine type must be ingredients class Engine: {'typee': 'DIESEL', 'power': 210.0}
+2022-08-21 11:31:53,371 validator    ERROR    Car engine type must be ingredients class Engine: {'type': 'GASOLINE', 'power1': 185.0}
+2022-08-21 11:32:19,997 validator    ERROR    Car engine type must be ingredients class Engine: {'type': 'GASOLINE'}
+2022-08-21 11:50:07,865 validator    ERROR    Wheel size must be greater than 0: -20
+2022-08-21 11:50:21,763 validator    ERROR    Wheel model must consist of capital letters only: GOOoDYEAR
+2022-08-21 11:50:35,170 validator    ERROR    Car model must consist of capital letters only: AUdI
+2022-08-21 11:50:45,560 validator    ERROR    Car mileage must be greater than 0: -50000
+2022-08-21 11:50:56,246 validator    ERROR    Car engine type must be ingredients class Engine: {'type': 'GASOLINE', 'power3': 255.0}
+2022-09-11 18:01:23,279 json         ERROR    '120' is not of type 'number'. Wrong json file format
+2022-09-11 18:01:39,551 json         ERROR    'DIESEl' is not one of ['DIESEL', 'GASOLINE', 'LPG']. Wrong json file format
+2022-09-11 18:02:07,834 json         ERROR    '210.0' is not of type 'number'. Wrong json file format
+2022-09-11 18:05:20,829 json         ERROR    'BLACk' is not one of ['BLACK', 'SILVER', 'WHITE', 'RED', 'BLUE', 'GREEN']. Wrong json file format
+2022-09-11 18:05:32,829 json         ERROR    12 is not of type 'array'. Wrong json file format
+2022-09-11 18:05:54,514 json         ERROR    '18' is not of type 'number'. Wrong json file format
+2022-09-11 18:06:10,454 json         ERROR    12 is not one of ['SUMMER', 'WINTER']. Wrong json file format
+2022-09-11 18:06:20,019 json         ERROR    12 is not of type 'string'. Wrong json file format
+2022-09-11 18:06:58,127 json         ERROR    'SUMMEeR' is not one of ['SUMMER', 'WINTER']. Wrong json file format
+2022-09-11 18:10:07,869 validator    ERROR    Car mileage must be greater than 0: -12000
+2022-09-11 18:10:18,779 validator    ERROR    Engine power must be greater than 0: -210.0
+2022-09-11 18:10:36,147 validator    ERROR    Car model must consist of capital letters only: audi
+2022-09-11 18:10:55,558 validator    ERROR    Engine power must be greater than 0: -185.0
+2022-09-11 19:36:37,703 json         ERROR    namespace(model='AUDI', price=120, mileage=12000, engine=namespace(type='DIESEL', power=210.0), car_body=namespace(color='BLACK', type='HATCHBACK', components=['ABS', 'AIR CONDITIONING']), wheel=namespace(type='SUMMER', model='PIRELLI', size=18)) is not of type 'object'. Wrong json file format
+2022-09-11 19:36:37,708 json         ERROR    namespace(model='BMW', price=105, mileage=18500, engine=namespace(type='GASOLINE', power=185.0), car_body=namespace(color='WHITE', type='SEDAN', components=['ABS', 'ESP', 'AIR CONDITIONING', 'GLASS ROOF']), wheel=namespace(type='WINTER', model='GOODYEAR', size=20)) is not of type 'object'. Wrong json file format
+2022-09-11 19:36:37,713 json         ERROR    namespace(model='AUDI', price=155, mileage=50000, engine=namespace(type='GASOLINE', power=255.0), car_body=namespace(color='SILVER', type='HATCHBACK', components=['ABS', 'FOLDING MIRRORS', 'AIR CONDITIONING', 'BACKUP CAMERA']), wheel=namespace(type='SUMMER', model='UNIROYAL', size=18)) is not of type 'object'. Wrong json file format
+2022-09-11 19:36:37,718 json         ERROR    namespace(model='MERCEDES', price=225, mileage=65000, engine=namespace(type='DIESEL', power=205.0), car_body=namespace(color='BLUE', type='COMBI', components=['ABS', 'ESP', 'LED LIGHTS', 'AIR CONDITIONING', 'GLASS ROOF', 'ALU WHEEL']), wheel=namespace(type='SUMMER', model='PIRELLI', size=20)) is not of type 'object'. Wrong json file format
+2022-09-11 19:36:37,722 json         ERROR    namespace(model='BMW', price=85, mileage=256000, engine=namespace(type='LPG', power=95.0), car_body=namespace(color='RED', type='COMBI', components=['ABS']), wheel=namespace(type='WINTER', model='DEBICA', size=16)) is not of type 'object'. Wrong json file format
+2022-09-11 19:36:37,727 json         ERROR    namespace(model='BUGATTI', price=1500, mileage=500, engine=namespace(type='GASOLINE', power=1000.0), car_body=namespace(color='BLUE', type='SEDAN', components=['ABS', 'AIR CONDITIONING', 'SPOILER', 'LED LIGHTS', 'BACKUP CAMERA']), wheel=namespace(type='SUMMER', model='GOODYEAR', size=22)) is not of type 'object'. Wrong json file format
+2022-09-11 19:36:37,731 json         ERROR    namespace(model='FIAT', price=25, mileage=125000, engine=namespace(type='GASOLINE', power=35.0), car_body=namespace(color='BLUE', type='HATCHBACK', components=['HEATED REAR WINDOW']), wheel=namespace(type='WINTER', model='DEBICA', size=14)) is not of type 'object'. Wrong json file format
+2022-09-11 19:36:37,735 json         ERROR    namespace(model='SKODA', price=115, mileage=500000, engine=namespace(type='DIESEL', power=110.0), car_body=namespace(color='GREEN', type='COMBI', components=['ABS', 'AIR CONDITIONING', 'BACKUP CAMERA']), wheel=namespace(type='SUMMER', model='UNIROYAL', size=18)) is not of type 'object'. Wrong json file format
+2022-09-11 19:54:46,479 json         ERROR    'DIESeL' is not one of ['DIESEL', 'GASOLINE', 'LPG']. Wrong json file format
+2022-09-11 20:01:46,026 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='DIESEL', power=210.0)
+2022-09-11 20:01:46,027 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='GASOLINE', power=185.0)
+2022-09-11 20:01:46,027 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='GASOLINE', power=255.0)
+2022-09-11 20:01:46,027 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='DIESEL', power=205.0)
+2022-09-11 20:01:46,027 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='LPG', power=95.0)
+2022-09-11 20:01:46,027 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='GASOLINE', power=1000.0)
+2022-09-11 20:01:46,027 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='GASOLINE', power=35.0)
+2022-09-11 20:01:46,027 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='DIESEL', power=110.0)
+2022-09-11 20:04:55,273 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='DIESEL', power=210.0)
+2022-09-11 20:04:55,273 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='GASOLINE', power=185.0)
+2022-09-11 20:04:55,273 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='GASOLINE', power=255.0)
+2022-09-11 20:04:55,273 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='DIESEL', power=205.0)
+2022-09-11 20:04:55,274 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='LPG', power=95.0)
+2022-09-11 20:04:55,274 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='GASOLINE', power=1000.0)
+2022-09-11 20:04:55,274 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='GASOLINE', power=35.0)
+2022-09-11 20:04:55,274 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='DIESEL', power=110.0)
+2022-09-11 20:05:50,479 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='DIESEL', power=210.0)
+2022-09-11 20:05:50,479 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='GASOLINE', power=185.0)
+2022-09-11 20:05:50,479 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='GASOLINE', power=255.0)
+2022-09-11 20:05:50,479 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='DIESEL', power=205.0)
+2022-09-11 20:05:50,480 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='LPG', power=95.0)
+2022-09-11 20:05:50,480 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='GASOLINE', power=1000.0)
+2022-09-11 20:05:50,480 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='GASOLINE', power=35.0)
+2022-09-11 20:05:50,480 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='DIESEL', power=110.0)
+2022-09-11 20:05:58,213 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='DIESEL', power=210.0)
+2022-09-11 20:05:58,213 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='GASOLINE', power=185.0)
+2022-09-11 20:05:58,214 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='GASOLINE', power=255.0)
+2022-09-11 20:05:58,214 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='DIESEL', power=205.0)
+2022-09-11 20:05:58,214 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='LPG', power=95.0)
+2022-09-11 20:05:58,214 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='GASOLINE', power=1000.0)
+2022-09-11 20:05:58,214 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='GASOLINE', power=35.0)
+2022-09-11 20:05:58,214 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='DIESEL', power=110.0)
+2022-09-11 20:07:11,153 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='DIESEL', power=210.0)
+2022-09-11 20:07:11,153 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='GASOLINE', power=185.0)
+2022-09-11 20:07:11,153 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='GASOLINE', power=255.0)
+2022-09-11 20:07:11,153 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='DIESEL', power=205.0)
+2022-09-11 20:07:11,154 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='LPG', power=95.0)
+2022-09-11 20:07:11,154 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='GASOLINE', power=1000.0)
+2022-09-11 20:07:11,154 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='GASOLINE', power=35.0)
+2022-09-11 20:07:11,154 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='DIESEL', power=110.0)
+2022-09-11 20:12:58,041 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='DIESEL', power=210.0)
+2022-09-11 20:12:58,041 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='GASOLINE', power=185.0)
+2022-09-11 20:12:58,041 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='GASOLINE', power=255.0)
+2022-09-11 20:12:58,042 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='DIESEL', power=205.0)
+2022-09-11 20:12:58,042 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='LPG', power=95.0)
+2022-09-11 20:12:58,042 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='GASOLINE', power=1000.0)
+2022-09-11 20:12:58,042 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='GASOLINE', power=35.0)
+2022-09-11 20:12:58,042 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='DIESEL', power=110.0)
+2022-09-11 20:13:25,803 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='DIESEL', power=210.0)
+2022-09-11 20:13:25,803 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='GASOLINE', power=185.0)
+2022-09-11 20:13:25,803 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='GASOLINE', power=255.0)
+2022-09-11 20:13:25,803 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='DIESEL', power=205.0)
+2022-09-11 20:13:25,803 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='LPG', power=95.0)
+2022-09-11 20:13:25,803 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='GASOLINE', power=1000.0)
+2022-09-11 20:13:25,803 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='GASOLINE', power=35.0)
+2022-09-11 20:13:25,804 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='DIESEL', power=110.0)
+2022-09-11 20:14:14,435 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='DIESEL', power=210.0)
+2022-09-11 20:14:14,436 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='GASOLINE', power=185.0)
+2022-09-11 20:14:14,436 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='GASOLINE', power=255.0)
+2022-09-11 20:14:14,436 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='DIESEL', power=205.0)
+2022-09-11 20:14:14,436 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='LPG', power=95.0)
+2022-09-11 20:14:14,436 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='GASOLINE', power=1000.0)
+2022-09-11 20:14:14,436 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='GASOLINE', power=35.0)
+2022-09-11 20:14:14,436 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='DIESEL', power=110.0)
+2022-09-11 20:14:35,526 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='DIESEL', power=210.0)
+2022-09-11 20:14:35,526 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='GASOLINE', power=185.0)
+2022-09-11 20:14:35,526 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='GASOLINE', power=255.0)
+2022-09-11 20:14:35,527 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='DIESEL', power=205.0)
+2022-09-11 20:14:35,527 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='LPG', power=95.0)
+2022-09-11 20:14:35,527 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='GASOLINE', power=1000.0)
+2022-09-11 20:14:35,527 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='GASOLINE', power=35.0)
+2022-09-11 20:14:35,527 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='DIESEL', power=110.0)
+2022-09-11 20:15:10,236 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='DIESEL', power=210.0)
+2022-09-11 20:15:10,237 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='GASOLINE', power=185.0)
+2022-09-11 20:15:10,237 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='GASOLINE', power=255.0)
+2022-09-11 20:15:10,237 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='DIESEL', power=205.0)
+2022-09-11 20:15:10,237 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='LPG', power=95.0)
+2022-09-11 20:15:10,237 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='GASOLINE', power=1000.0)
+2022-09-11 20:15:10,237 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='GASOLINE', power=35.0)
+2022-09-11 20:15:10,237 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='DIESEL', power=110.0)
+2022-09-11 20:15:49,891 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='DIESEL', power=210.0)
+2022-09-11 20:15:49,892 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='GASOLINE', power=185.0)
+2022-09-11 20:15:49,892 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='GASOLINE', power=255.0)
+2022-09-11 20:15:49,892 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='DIESEL', power=205.0)
+2022-09-11 20:15:49,892 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='LPG', power=95.0)
+2022-09-11 20:15:49,892 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='GASOLINE', power=1000.0)
+2022-09-11 20:15:49,892 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='GASOLINE', power=35.0)
+2022-09-11 20:15:49,892 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='DIESEL', power=110.0)
+2022-09-11 20:16:03,873 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='DIESEL', power=210.0)
+2022-09-11 20:16:03,873 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='GASOLINE', power=185.0)
+2022-09-11 20:16:03,874 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='GASOLINE', power=255.0)
+2022-09-11 20:16:03,874 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='DIESEL', power=205.0)
+2022-09-11 20:16:03,874 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='LPG', power=95.0)
+2022-09-11 20:16:03,874 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='GASOLINE', power=1000.0)
+2022-09-11 20:16:03,874 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='GASOLINE', power=35.0)
+2022-09-11 20:16:03,874 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='DIESEL', power=110.0)
+2022-09-11 20:18:33,704 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='DIESEL', power=210.0)
+2022-09-11 20:18:33,705 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='GASOLINE', power=185.0)
+2022-09-11 20:18:33,705 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='GASOLINE', power=255.0)
+2022-09-11 20:18:33,705 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='DIESEL', power=205.0)
+2022-09-11 20:18:33,705 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='LPG', power=95.0)
+2022-09-11 20:18:33,705 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='GASOLINE', power=1000.0)
+2022-09-11 20:18:33,705 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='GASOLINE', power=35.0)
+2022-09-11 20:18:33,705 validator    ERROR    Car engine type must be ingredients class Engine [type: , power: ]: Engine(type='DIESEL', power=110.0)
+2022-09-11 20:34:20,495 json         ERROR    'color' is a required property. Wrong json file format
+2022-09-19 20:40:32,981 json         ERROR    120.012 is not a multiple of 0.01. Wrong json file format
+2022-09-20 19:06:49,037 validator    ERROR    Car price must be greater than 0: -25
